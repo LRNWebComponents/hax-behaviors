@@ -1,7 +1,7 @@
 {
-  "name": "lrnsys-behaviors",
-  "description": "A series of core behaviors for lrn components",
-  "main": "lrnsys-behaviors.html",
+  "name": "hax-behaviors",
+  "description": "A series of core behaviors for hax components",
+  "main": "hax-behaviors.html",
   "dependencies": {
     "polymer": "Polymer/polymer#^1.4.0",
     "hax-editable": "LRNWebComponents/hax-editable#^0.0.2",
