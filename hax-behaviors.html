@@ -1,5 +1,6 @@
 <link rel="import" href="../hax-editbar/hax-editbar.html">
 <link rel="import" href="../hax-editable/hax-editable.html">
+<link rel="import" href="../hax-ajax/hax-ajax.html">
 <script>
   // ensure HAXBehaviors exists globally before acting on them
   window.HAXBehaviors = window.HAXBehaviors || {};
@@ -16,6 +17,10 @@
         readOnly: false,
         notify: true,
         observer: '_editChanged'
+      },
+      canHax: {
+        type: Boolean,
+        value: false,
       }
     },
     /**
