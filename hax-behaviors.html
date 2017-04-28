@@ -18,7 +18,7 @@
         notify: true,
         observer: '_editChanged'
       },
-      canHax: {
+      hideHax: {
         type: Boolean,
         value: false,
       }
@@ -28,7 +28,7 @@
      */
     ready: function() {
       let root = this;
-      this.$$('hax-editbar').addEventListener('action', function(e) {
+      this.$$('hax-editbar').addEventListener('haxAction', function(e) {
         let action = e.detail.action;
         switch(action) {
           case 'edit':
