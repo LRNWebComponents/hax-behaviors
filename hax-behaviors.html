@@ -18,10 +18,12 @@
         notify: true,
         observer: '_editChanged'
       },
-      hideHax: {
+      showHax: {
         type: Boolean,
         value: false,
-      }
+        reflectAttribute: true,
+        notify: true,
+      },
     },
     /**
      * Ready state to ensure we are listening for actions to take place from hax
